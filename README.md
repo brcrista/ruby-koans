@@ -1,10 +1,11 @@
 # Ruby Koans
 
-http://rubykoans.com/
+<http://rubykoans.com>
 
 ## Prerequisites
 
-- [rbenv](https://github.com/rbenv/rbenv)
+- [Ruby](https://www.ruby-lang.org/en/)
+- [rbenv](https://github.com/rbenv/rbenv) (optional) will use the `.ruby-version` file in the root.
 
 ## Running the koans
 
