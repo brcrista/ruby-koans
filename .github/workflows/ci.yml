@@ -1,0 +1,16 @@
+name: CI
+
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.6.6'
+    - run: cd koans && ruby path_to_enlightenment.rb
+      name: Path to Enlightenment
