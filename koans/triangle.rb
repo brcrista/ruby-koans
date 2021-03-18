@@ -14,7 +14,9 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  if a == b && b == c
+  if a + b <= c || a + c <= b || b + c <= a
+    raise TriangleError
+  elsif a == b && b == c
     # a == c is implied by the transitive property of ==
     :equilateral
   elsif a == b || b == c || a == c
