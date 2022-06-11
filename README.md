@@ -1,6 +1,6 @@
 # Ruby Koans
 
-[![GitHub Actions status badge](https://github.com/brcrista/ruby-koans/workflows/build-test/badge.svg)](https://github.com/brcrista/ruby-koans/actions?query=workflow%3ACI)
+[![GitHub Actions status badge](https://github.com/brcrista/ruby-koans/actions/workflows/ci.yml/badge.svg)](https://github.com/brcrista/ruby-koans/actions/workflows/ci.yml)
 
 <http://rubykoans.com>
 
